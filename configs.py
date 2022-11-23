@@ -4,20 +4,20 @@ import os
 
 
 class Config(object):
-    API_ID = os.environ.get("API_ID")
-    API_HASH = os.environ.get("API_HASH")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    API_ID = int(os.environ.get("API_ID", 6425084))
+    API_HASH = os.environ.get("API_HASH", "8061114222ed0679410ed400875d754f")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5864237669:AAHc1v2QKuOGgbFKJNyQQzbnOwevfsiCkCQ")
     SESSION_NAME = os.environ.get("SESSION_NAME", "Video-Merge-Bot")
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL")
-    LOG_CHANNEL = os.environ.get("LOG_CHANNEL")
+    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001555769566")
     DOWN_PATH = os.environ.get("DOWN_PATH", "./downloads")
-    TIME_GAP = int(os.environ.get("TIME_GAP", 5))
-    MAX_VIDEOS = int(os.environ.get("MAX_VIDEOS", 5))
+    TIME_GAP = int(os.environ.get("TIME_GAP", 1))
+    MAX_VIDEOS = int(os.environ.get("MAX_VIDEOS", 25))
     STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME")
     STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS")
-    MONGODB_URI = os.environ.get("MONGODB_URI")
+    MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb+srv://Cluster0:password17@cluster0.lzclww3.mongodb.net/?retryWrites=true&w=majority")
     BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
-    BOT_OWNER = int(os.environ.get("BOT_OWNER", 1445283714))
+    BOT_OWNER = int(os.environ.get("BOT_OWNER", 1213093212))
 
     START_TEXT = """
 Hi Unkil, I am Video Merge Bot!
