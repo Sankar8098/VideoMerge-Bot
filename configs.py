@@ -15,7 +15,7 @@ class Config(object):
     MAX_VIDEOS = int(os.environ.get("MAX_VIDEOS", 25))
     STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME", "99a34b1b2621e9225d1a")
     STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS", "oly1VYYD2BCJ10a")
-    MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb+srv://Cluster0:password17@cluster0.lzclww3.mongodb.net/?retryWrites=true&w=majority")
+    MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb+srv://duke:duke@cluster0.iebnx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
     BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
     BOT_OWNER = int(os.environ.get("BOT_OWNER", 1213093212))
 
