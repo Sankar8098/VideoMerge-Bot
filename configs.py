@@ -8,7 +8,7 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH", "8061114222ed0679410ed400875d754f")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5864237669:AAHc1v2QKuOGgbFKJNyQQzbnOwevfsiCkCQ")
     SESSION_NAME = os.environ.get("SESSION_NAME", "Video-Merge-Bot")
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001725921590")
     LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001555769566")
     DOWN_PATH = os.environ.get("DOWN_PATH", "./downloads")
     TIME_GAP = int(os.environ.get("TIME_GAP", 1))
