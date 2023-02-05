@@ -5,7 +5,7 @@ import os
 
 class Config(object):
     API_ID = int(os.environ.get("API_ID", 29409646))
-    API_HASH = os.environ.get("API_HASH", "a69d0340a520c1913c517bea143a3de7)
+    API_HASH = os.environ.get("API_HASH", "a69d0340a520c1913c517bea143a3de7")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6132536594:AAGiW566fMpFm3stxkirQKztkCSLQ-5ueLw")
     SESSION_NAME = os.environ.get("SESSION_NAME", "Video-Merge-Bot")
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001836119359")
